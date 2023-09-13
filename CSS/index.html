@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos no CSS</title>
+    <link rel="stylesheet" href="style.CSS">
+    <style>
+/* Seletor é o nome ou id de uma <tag> */
+    h4   { 
+        color :blueviolet;
+        background-color:rgb(174, 223, 101);
+        border: 5px solid rgb(197, 70, 197);
+    }
+    /* Nível de especificação*/
+    section>p{
+        text-align: center;
+        font-size: 1.5rem;
+        border: 3px solid purple;
+        font-weight: bold;
+        background-color: aliceblue;
+    }
+    </style>
+</head>
+<body style="background-color: hotpink;">
+    <h1>CSS - Browser - Herança 5 lugar</h1> 
+    <h2>CSS - Style - Herança 4 lugar</h2>
+    <h3>CSS - External - Herança 3 lugar</h3>
+    <h4>CSS - embedded - Herança 2 lugar</h4>
+    <h5 style="color: rgb(173, 55, 55); font-size: 1.5rem;">CSS - Inline - Herança 1 lugar</h5>
+
+    <p style= "text-align: right; color:lawngreen;" >Esse parágrafo está possuido pelo estilo Inline </p>
+    <p>Esse parágrafo não</p>
+
+
+
+    <section> 
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Minima nihil nobis provident nisi vel labore deleniti harum, eveniet cum?
+            Vitae explicabo voluptatem alias laborum architecto nesciunt deleniti nisi repellat quidem.
+        </p>
+    </section>
+    <ul>
+        <li>Browser</li>
+        <li style="font-size: 23px; color: greenyellow ">Inline</li>
+        <li><a href="#">chama</a></li>
+        <p id="escolhido">Esse parágrafo é o escolhido!</p>
+        <p>Esse já não, ele é normalzinho </p>
+        <hr> 
+    </ul>
+
+    <footer> by Allana Gabrielly &copy; </footer>
+</body>
+</html>
